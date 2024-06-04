@@ -1,0 +1,72 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: montserrat;
+}
+#navbarNav a
+{
+    padding-right: 40px;
+    font-family: montserrat;
+    color: white;
+}
+#navbarNav a:hover
+{
+    font-size: large;
+}
+#home .row
+{
+    display: flex;
+    margin-left: 100px;
+}
+#home .pic
+{   
+    
+    margin-top: 30px;
+    padding-top: 80px;
+    /* border: 2px solid white; */
+}
+#home .col-md-6
+{
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    padding-top: 180px;
+    color: white;
+    padding-bottom: 180px;
+}
+#academics .container
+{
+    margin-top: 50px;
+}
+#tb
+{
+    margin-top: 150px;
+    margin-bottom: 220px;
+}
+#projects .container
+{
+    margin-top: 50px;
+}
+.card-title
+{
+    color: #2eae28;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bolder;
+}
+#achievements
+{
+    border: 2px solid white;
+    margin-top: 40px;
+}
+.logos a
+{
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+}
+#contact .container
+{
+    margin-bottom: 200px;
+}

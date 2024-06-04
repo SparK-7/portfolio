@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css"> 
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#academics">Academics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<!-- Home Section with Bootstrap Grid -->
+<section id="home" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Hi,I'm <span style="color: #cc7416;">Uday</span></h2>
+          <h3 style="color: rgba(255, 255, 0, 0.57);">Frontend Developer...</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid sunt quis cum accusantium illo vero. Rerum nisi soluta temporibus, obcaecati amet corporis quos porro laborum quaerat natus adipisci voluptates!</p>
+          <br><br><br><div class="logos">
+              <a href=""><i class='bx bxl-linkedin' ></i></i></a>
+              <a href=""><i class='bx bxl-gmail' ></i></a>
+              <a href="" ><i class='bx bxl-instagram' ></i></a>
+        </div>
+        </div>
+        <div class="pic">
+            <img src="pic.png" style="border-radius: 50%;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Academics Section with Bootstrap Table -->
+<section id="academics" class="py-5">
+    <div class="container">
+      <h2 >Academics</h2>
+      <table class="table table-bordered" style="color: white;" id="tb">
+        <thead > 
+          <tr>
+            <th>Course</th>
+            <th>Institution</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech in Computer Science</td>
+            <td>KMIT</td>
+            <td>85%</td>
+          </tr>
+          <tr>
+            <td>Diploma in Computer Engineering</td>
+            <td>GIOE</td>
+            <td>87%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+
+<!-- Projects Section with Bootstrap Cards -->
+<section id="projects" class="py-5 ">
+    <div class="container">
+      <h2>Projects</h2><br><br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-light  bg-transparent">
+            <div class="card-body">
+              <h5 class="card-title">Responsive online food delivery Website</h5>
+              <p class="card-text">
+                <ul>
+                    <li>Dynamic pages.</li>
+                    <li>a webpage for online food delivery system using HTML and CSS</li>
+                </ul>
+                <img src="blog.jpg" width="300px" height="193px">
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-light  bg-transparent">
+              <div class="card-body">
+                <h5 class="card-title">Product Landing Page</h5>
+                <p class="card-text">
+                    <ul>
+                        <li>View the site's optimal layout based on their device's screen size.</li>
+                        <li>All interactive elements on the page have hover states.</li>
+                        <li>Columns will be used on a product landing page, and the components of the landing page will be aligned within them.</li>
+                    </ul>
+                    <img src="watch.jpeg">
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-light bg-transparent">
+              <div class="card-body">
+                <h5 class="card-title">Quiz App</h5>
+                <p class="card-text"><ul>
+                    <li>Select option from multiple choices.</li>
+                    <li>Get the result of the question as correct or incorrect.</li>
+                </ul><br><br>
+                <br><img src="quiz.jpg" width="300px" height="215px">
+                    </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Achievements Section with Bootstrap Carousel -->
+<section id="achievements" class="py-5">
+  <div class="container">
+    <h2>Achievements</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+</section>
+  
+
+<!-- Contact Form with Bootstrap Form -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Us</h2><br>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" style="background-color: transparent;border: 1px solid white;color: white;">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" style="background-color: transparent;border: 1px solid white;color: white;">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" style="background-color: transparent;border: 1px solid white;color: white;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
